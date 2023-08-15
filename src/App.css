@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  
+}
+.nav{
+  background-color:black;
+  height: 50px;
+  margin-top: -20px;
+ 
+}
+ul {
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+margin-left: 520px;
+
+}
+li{
+  margin-top: 10px;
+
+}
+.home{
+  background-color:  #FFDBC3;;
+}
+.image{
+  position: relative;
+  left:300px;
+  bottom: 130px;
+  height: 80vh;
+  border-radius: 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.content{
+ position: relative;
+ right: 200px;
+ top: 240px;
+}
+marquee{
+  color: red;
+  font-weight: bolder;
+}
+.links img{
+  width: 40px;
+  margin: 20px;
+}
+.skills ul{
+ display: flex;
+ margin: 30px;
+}
+.abtcontent{
+  color:rgb(51, 3, 96);
+  width: 650px;
+ position: relative;
+ left:400px ;
+ margin-bottom: 20px;
+ margin-top: 30px;
+ font-size: larger;
+}
+.projects a{
+  text-decoration: none;
+  background-color: black;
+  color: azure;
+ padding: 10px;
+ border-radius: 8px;
+ 
+}
+.projects a:hover{
+  background-color: rgb(112, 89, 175);
+}
+.projContent{
+  line-height: 50px;
+  color: rgb(3, 3, 66);
+
+}
